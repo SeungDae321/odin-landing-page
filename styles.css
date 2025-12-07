@@ -1,0 +1,83 @@
+*{
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border-color:#3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+header{
+    padding-bottom: 50px;
+}
+
+header button{
+    margin-top: 20px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9%;
+}
+
+
+
+.logo ,h1, .main p, .main button{
+    margin-left: 150px;
+}
+
+nav{
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    justify-content:right;
+}
+
+nav p{
+    margin-left: 40px;
+}
+
+nav .logo{
+    margin-left:30px;
+    
+}
+
+header, footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+}
+
+.main{
+    display: flex;
+}
+
+.main .placeholder{
+    background-color: #898b8e;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main h1{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
