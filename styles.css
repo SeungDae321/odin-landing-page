@@ -17,6 +17,7 @@ button{
 
 header{
     padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 header button{
@@ -33,6 +34,10 @@ header button{
 
 .logo ,h1, .main p, .main button{
     margin-left: 150px;
+}
+
+h1{
+    width: 250px;
 }
 
 nav{
@@ -70,14 +75,33 @@ header, footer{
 
 .main .placeholder{
     background-color: #898b8e;
-    padding: 50px;
+    width: 300px;
+    height: auto;
+    padding: 100px;
+    padding-left: 150px;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 
 .main h1{
     font-size: 40px;
     font-weight: 900;
-    
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.image-container .img{
+    height: 100px;
+    width: 100px;
+    border: solid 5px #3882F6;
+    margin: 10px;
+    border-radius: 10px;
 }
 
