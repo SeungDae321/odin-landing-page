@@ -65,9 +65,6 @@ header, footer{
     background-color: #E5E7EB;
 }
 
-.call-to-action{
-    background-color: #3882F6;
-}
 
 .main{
     display: flex;
@@ -95,6 +92,8 @@ header, footer{
 
 .info{
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .image-container .img{
@@ -105,3 +104,45 @@ header, footer{
     border-radius: 10px;
 }
 
+
+.quote-container{
+    padding: 3em;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.quote-container .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-container .auther{
+    display: flex;
+    justify-content: end;
+}
+
+.call-to-action-container{
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.call-to-action{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2.3em;
+}
